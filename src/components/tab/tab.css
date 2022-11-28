@@ -1,0 +1,21 @@
+.tab-root {
+  width: 253px;
+  height: 75px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tab-root > div > div:nth-child(1) {
+  font-size: 12px;
+  color: #787c90;
+}
+
+.tab-root > div > div:nth-child(2) {
+  font-size: 18px;
+}
+
+.tab-root img {
+  width: 62px;
+  height: 37px;
+}
