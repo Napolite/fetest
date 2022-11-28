@@ -32,6 +32,44 @@ function Main() {
           </div>
           <Chartcomponent />
         </div>
+        <div className="chart-texts">
+          <div>
+            <div>Orders</div>
+            <div>
+              <div></div>
+              <div></div>
+            </div>
+            <div>
+              <div>
+                Pending Orders: <p className="reconciled"> 20</p>
+              </div>
+              <div>
+                Reconciled Orders: <p className="unreconciled"> 80</p>
+              </div>
+              <div>
+                Total Orders: <p className="total"> 100</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>Payments</div>
+            <div>
+              <div></div>
+              <div></div>
+            </div>
+            <div>
+              <div>
+                Unreconciled Payments: <p className="reconciled"> 20</p>
+              </div>
+              <div>
+                Reconciled Payments: <p className="unreconciled"> 80</p>
+              </div>
+              <div>
+                Total Payments: <p className="total"> 100</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

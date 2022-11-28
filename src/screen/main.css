@@ -61,3 +61,61 @@
   text-align: center;
   background: linear-gradient(0deg, #f2f4f7 0%, #ffffff 100%);
 }
+
+.chart-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+.chart-texts > div:nth-child(2) {
+  margin-top: -80px;
+}
+.chart-texts > div > div:nth-child(2) {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.chart-texts > div > div:nth-child(2) > div:nth-child(1) {
+  background-color: green;
+  width: 80%;
+  height: 4px;
+}
+
+.chart-texts > div > div:nth-child(2) > div:nth-child(2) {
+  background-color: #fdc203;
+  width: 20%;
+  height: 4px;
+}
+.chart-texts > div > div:nth-child(3) {
+  height: 100px;
+}
+.chart-texts > div > div > div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.chart-texts
+  > div
+  > div
+  > div:not(.chart-texts > div > div > div:nth-child(1)) {
+  margin-top: -5;
+}
+
+.reconciled {
+  color: green;
+  margin-left: 5px;
+}
+
+.unreconciled {
+  color: #fdc203;
+  margin-left: 5px;
+}
+
+.total {
+  color: #1860ec;
+  margin-left: 5px;
+}
