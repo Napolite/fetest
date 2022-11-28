@@ -9,3 +9,55 @@
   margin-bottom: 50px;
   justify-content: space-between;
 }
+
+.chart-div {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.chart-div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-nav {
+  width: 670px;
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.date {
+  font-size: 18px;
+}
+
+.date-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+}
+.date-filter > div:nth-child(1) {
+  width: 128px;
+  padding: 5px 10px;
+  border: 1px solid #dde0e3;
+  border-radius: 4.25px;
+  height: fit-content;
+}
+.date-filter > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+}
+.date-filter > div:nth-child(2) > div {
+  width: 29.36px;
+  height: 22.97px;
+  text-align: center;
+  background: linear-gradient(0deg, #f2f4f7 0%, #ffffff 100%);
+}
