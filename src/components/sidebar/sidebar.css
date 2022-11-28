@@ -1,4 +1,52 @@
 .sidebar-root {
-  width: 15vw;
+  width: 18vw;
   background-color: white;
+  height: 100vh;
+
+  /* padding-top: 100px; */
+}
+
+.sidebar-root > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 70%;
+  margin-top: 20%;
+  width: 100%;
+}
+
+.invoice {
+  width: 112px;
+  height: 33px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #27ae60;
+  color: white;
+}
+
+.main-menu {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #647787;
+}
+
+.main-menu > div {
+  height: 55%;
+  justify-content: space-between;
+}
+
+.main-menu > div > div {
+  display: flex;
+  margin: 20px 0px;
+  width: 100%;
+  font-size: 14px;
+}
+.main-menu img {
+  margin-right: 20px;
 }

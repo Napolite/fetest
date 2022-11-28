@@ -5,13 +5,13 @@ import Main from "./screen";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <NavBar />
       <div className="main">
         <SideBar />
         <Main />
       </div>
-    </div>
+    </>
   );
 }
 

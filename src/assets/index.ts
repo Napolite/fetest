@@ -10,7 +10,7 @@ import reconciledOrder from "./images/reconciledOrder.png";
 import unreconciled from "./images/unreconciled.png";
 import graph from "./images/graph.png";
 
-module.exports = {
+export {
   overview,
   allorders,
   allpayments,
