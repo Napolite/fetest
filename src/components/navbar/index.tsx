@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Logo from "../../assets/images/Group (1).png";
 import NotificationIcon from "../../assets/images/notifications.png";
 import avatar from "../../assets/images/no image.png";
@@ -13,32 +12,15 @@ function NavBar({ active }: any) {
       </div>
       <div className="nav-menu-parent">
         <div className="nav-menu">
-          <Link to="/" className={`link ${active === "Dashboard" && "focus"}`}>
-            <div>Dashboard</div>
-          </Link>
-          <Link
-            to="/tracking"
-            className={`link ${active === "Tracking" && "focus"}`}
-          >
-            <div>Tracking</div>
-          </Link>
+          <div>Dashboard</div>
 
-          <Link to="/users" className={`link ${active === "Users" && "focus"}`}>
-            <div>Users</div>
-          </Link>
+          <div>Tracking</div>
 
-          <Link
-            to="/drivers"
-            className={`link ${active === "Drivers" && "focus"}`}
-          >
-            <div>Drivers&Fleets</div>
-          </Link>
-          <Link
-            to="/payments"
-            className={`link ${active === "Payments" && "focus"}`}
-          >
-            <div> Payments</div>
-          </Link>
+          <div>Users</div>
+
+          <div>Drivers&Fleets</div>
+
+          <div> Payments</div>
           <div>Promotions</div>
         </div>
       </div>
