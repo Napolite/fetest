@@ -71,6 +71,20 @@ function Main() {
           </div>
         </div>
       </div>
+      <div className="payments">
+        <div>Payments</div>
+        <div className="payments-tab">
+          <div>
+            Showing <p>20</p> out of 500 payments
+          </div>
+          <div>
+            <input id="search" placeholder="search payments" />
+          </div>
+          <div>
+            <div>Show</div> <div></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

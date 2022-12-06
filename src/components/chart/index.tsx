@@ -7,6 +7,7 @@ function Chartcomponent() {
       chart: {
         id: "basic-bar",
       },
+      markers: { size: 0, colors: ["red"] },
       xaxis: {
         categories: ["Jan", "Feb", "March", "April", "May", "Jun"],
       },

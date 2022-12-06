@@ -35,12 +35,13 @@
 
 .date {
   font-size: 18px;
+  font-weight: 700;
 }
 
 .date-filter {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   width: 45%;
 }
 .date-filter > div:nth-child(1) {
@@ -49,6 +50,8 @@
   border: 1px solid #dde0e3;
   border-radius: 4.25px;
   height: fit-content;
+  color: #7f8fa4;
+  font-size: 12px;
 }
 .date-filter > div:nth-child(2) {
   display: flex;
@@ -118,4 +121,18 @@
 .total {
   color: #1860ec;
   margin-left: 5px;
+}
+
+.payments-tab {
+  display: flex;
+}
+
+.payments input#search {
+  background-image: url("../assets/images/Search.png");
+  background-repeat: no-repeat;
+  text-indent: 20px;
+}
+
+input#search:focus {
+  background-image: none;
 }
